@@ -13,7 +13,7 @@
 <pre>
 ###### Example: If any client Request  to any application it will reaches to Dispatchservelet then it will goes to dodispatch(Dodispatch servelet is for handling the incoming and outgoing Request&Response to determine the appropriate response) then it will goes to HandlerMapper(HM is responsible for mapping the request and response to appropriate handler methods or controller classes based specific creteria) then it will pass to controller after dispatchservelet,now dispacther servelet go to viewresolver to find the view model to show the UI Pages
 </pre>
-##### M1 
+##### Error Handiling Mechanism & View Rendering
 <pre>
 &#8594; Request 
 &#8594; DispatcherServelet 
@@ -27,7 +27,7 @@
 &#8594; DS 
 &#8594; UI 
 </pre>
-###### M2  
+###### Error Handiling with Basic Error Controller  
 <pre>
 &#8594;  Request 
 &#8594;  DispatcherServlet 
